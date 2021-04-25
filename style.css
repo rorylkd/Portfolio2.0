@@ -97,4 +97,36 @@ a{
     font-family: monospace;
 }
 
+.appTitle{
+    color: white;
+    font-size: 20px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    overflow-x: hidden;
+}
+
+.moovieImg{
+    height: 100%;
+    width: 100%;
+}
+
+.weatherDashImg{
+  
+    object-fit: contain;
+}
+
+.workSchedulerImg{
+   
+    object-fit: contain;
+}
+
 
