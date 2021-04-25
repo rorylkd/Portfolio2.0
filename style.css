@@ -104,6 +104,7 @@ footer{
 .appTitle{
     color: white;
     font-size: 20px;
+    margin-left: 20px;
 }
 
 .column{
@@ -120,8 +121,12 @@ footer{
 }
 
 .moovieImg{
-    height: 100%;
-    width: 100%;
+    height: 92%;
+    width: 92%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    margin: 10px;
 }
 
 .work2Container{
@@ -135,11 +140,17 @@ footer{
 .weatherDashImg{
     height: 90%;
     width: 90%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 }
 
 .workSchedulerImg{
     height: 90%;
     width: 90%;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -147,5 +158,7 @@ footer{
       flex-wrap: wrap;
     }
   }
+
+  
 
 
