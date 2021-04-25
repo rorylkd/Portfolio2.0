@@ -1,18 +1,32 @@
 .header{
     position: relative;
     overflow: hidden;
-    background-color: rgb(34, 81, 109);
-    height: 200px;
+    height: 250px;
     width: 1350px;
-
+    background-image: url("assets/burningshipfractal.jpg");
+    background-size: contain;
+    
 }
-
 
 .profilePicture{
     height: 150px;
     width: 150px;
-    margin: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
     border-radius: 50%;
     border-style: groove;
     border-color: white;
 }
+
+.myName{
+    font-family: monospace;
+    font-size: 50px;
+    color: rgb(10, 10, 10);
+    width: 30%;
+    margin-top: 10px;
+    background-color: white;
+    margin-left: 20px;
+    z-index: 2;
+
+}
+
