@@ -97,6 +97,10 @@ a{
     font-family: monospace;
 }
 
+footer{
+    margin-top: 100px;
+}
+
 .appTitle{
     color: white;
     font-size: 20px;
@@ -111,7 +115,8 @@ a{
     display: flex;
     flex-direction: row;
     width: 99%;
-    overflow-x: hidden;
+    align-items: stretch;
+    flex-wrap: nowrap;
 }
 
 .moovieImg{
@@ -119,14 +124,28 @@ a{
     width: 100%;
 }
 
+.work2Container{
+    margin: 20px;
+}
+
+.work3Container{
+    margin: 20px;
+}
+
 .weatherDashImg{
-  
-    object-fit: contain;
+    height: 90%;
+    width: 90%;
 }
 
 .workSchedulerImg{
-   
-    object-fit: contain;
+    height: 90%;
+    width: 90%;
 }
+
+@media only screen and (max-width: 600px) {
+    .row {
+      flex-wrap: wrap;
+    }
+  }
 
 
