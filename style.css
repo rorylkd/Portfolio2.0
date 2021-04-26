@@ -64,7 +64,7 @@ a{
 
 .aboutMeContent{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 20px;
 }
 
@@ -75,30 +75,49 @@ a{
 }
 
 .TwitterLink{
-    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+    margin-right: 60px;
+
 }
 
 .emailLink{
-    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+    margin-right: 60px;
 }
 
 .GithubLink{
-    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+    margin-right: 60px;
 }
 
 .LinkedInLink{
-    margin: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 175px;
+    margin-right: 60px;
 }
 
 .footerTitle{
     color: white;
     font-size: 30px;
     margin-left: 20px;
+    margin-top: 10px;
     font-family: monospace;
 }
 
 footer{
+    width: 98%;
     margin-top: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background: rgba(3, 4, 87, 0.45);
 }
 
 .appTitle{
@@ -122,7 +141,7 @@ footer{
 
 .moovieImg{
     height: 92%;
-    width: 92%;
+    width: 98%;
     border-style: solid;
     border-color: white;
     border-width: 5px;
@@ -143,6 +162,7 @@ footer{
     border-style: solid;
     border-color: white;
     border-width: 5px;
+    margin-left: 30px;
 }
 
 .workSchedulerImg{
@@ -151,6 +171,7 @@ footer{
     border-style: solid;
     border-color: white;
     border-width: 5px;
+    margin-left: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -158,6 +179,24 @@ footer{
       flex-wrap: wrap;
     }
   }
+
+  button{
+      font-family: monospace;
+      color: white;
+      background-color: rgba(3, 4, 87, 0.45);
+      border-radius: 10px;
+      font-size: 20px;
+      padding: 5px;
+
+  }
+
+button:hover{
+  border-color: white;
+  background-color: black;
+  box-shadow:white;
+    
+}
+  
 
   
 
