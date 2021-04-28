@@ -77,30 +77,30 @@ a{
 .TwitterLink{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 175px;
-    margin-right: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 
 }
 
 .emailLink{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 175px;
-    margin-right: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .GithubLink{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 175px;
-    margin-right: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .LinkedInLink{
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 175px;
-    margin-right: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .footerTitle{
@@ -141,7 +141,7 @@ footer{
 
 .moovieImg{
     height: 92%;
-    width: 98%;
+    width: 95%;
     border-style: solid;
     border-color: white;
     border-width: 5px;
