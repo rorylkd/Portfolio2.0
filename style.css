@@ -105,6 +105,14 @@ a{
     margin-right: 100px;
 }
 
+.resumeLink{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
 .footerTitle{
     color: white;
     font-size: 30px;
