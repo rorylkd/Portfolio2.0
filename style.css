@@ -7,7 +7,7 @@ body {
     font-family: monospace;
 }
 
-
+/* Style for the header; background image is colored with a linear gradient as the original was kinda salmon colored  */
 .header{
     position: relative;
     overflow: hidden;
@@ -74,6 +74,8 @@ a{
     margin-left: 20px;
 }
 
+
+/* These are all the contact info links. I preferred giving them all individual classes as I wasn't sure I wanted to keep the margins the same for each one. */
 .TwitterLink{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -126,6 +128,7 @@ footer{
     margin-left: 20px;
 }
 
+/* Column and row are there to set the app immages to flex */
 .column{
     display: flex;
     flex-direction: column;
@@ -148,14 +151,6 @@ footer{
     margin: 10px;
 }
 
-.work2Container{
-    margin: 20px;
-}
-
-.work3Container{
-    margin: 20px;
-}
-
 .weatherDashImg{
     height: 90%;
     width: 90%;
@@ -174,12 +169,16 @@ footer{
     margin-left: 30px;
 }
 
+
+/* Only needed one media query in order to make the images stack at the lowest screen width */
 @media only screen and (max-width: 600px) {
     .row {
       flex-wrap: wrap;
     }
   }
 
+
+  /* Button styling, including some color changes on hover */
   button{
       font-family: monospace;
       color: white;
